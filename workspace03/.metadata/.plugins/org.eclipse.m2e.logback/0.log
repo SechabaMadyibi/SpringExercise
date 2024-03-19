@@ -1,0 +1,41 @@
+2024-03-19 10:19:16,185 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-19 10:20:56,689 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:taco-cloud-jdbctemplate:0.0.3-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-jdbctemplate\pom.xml.
+2024-03-19 10:21:11,672 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:taco-cloud-sd-jdbc:0.0.3-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-sd-jdbc\pom.xml.
+2024-03-19 10:21:13,462 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:taco-cloud-sd-jpa:0.0.3-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-sd-jpa\pom.xml.
+2024-03-19 10:21:44,249 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-sd-jdbc/src/main/java
+2024-03-19 10:21:44,250 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jdbc/src/main/resources
+2024-03-19 10:21:44,251 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jdbc/src/main/resources
+2024-03-19 10:21:44,255 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-sd-jdbc/src/test/java
+2024-03-19 10:21:44,256 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jdbc/src/test/resources
+2024-03-19 10:21:45,979 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-jdbctemplate/src/main/java
+2024-03-19 10:21:45,980 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-jdbctemplate/src/main/resources
+2024-03-19 10:21:45,982 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-jdbctemplate/src/main/resources
+2024-03-19 10:21:45,983 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-jdbctemplate/src/test/java
+2024-03-19 10:21:45,984 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-jdbctemplate/src/test/resources
+2024-03-19 10:21:47,520 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-sd-jpa/src/main/java
+2024-03-19 10:21:47,520 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jpa/src/main/resources
+2024-03-19 10:21:47,520 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jpa/src/main/resources
+2024-03-19 10:21:47,522 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud-sd-jpa/src/test/java
+2024-03-19 10:21:47,522 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud-sd-jpa/src/test/resources
+2024-03-19 10:21:48,930 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 77 sec
+2024-03-19 10:21:55,772 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:21:55,772 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:21:55,803 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-03-19 10:21:55,911 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2024-03-19 10:21:56,608 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:21:56,608 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:21:56,608 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-jdbctemplate\src\test\resources
+2024-03-19 10:22:03,971 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:22:03,971 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:22:03,972 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-03-19 10:22:04,025 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2024-03-19 10:22:04,204 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:22:04,204 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:22:04,204 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-sd-jdbc\src\test\resources
+2024-03-19 10:22:07,223 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:22:07,224 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:22:07,225 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-03-19 10:22:07,269 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2024-03-19 10:22:07,473 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-19 10:22:07,473 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-19 10:22:07,473 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch03\tacos-sd-jpa\src\test\resources
