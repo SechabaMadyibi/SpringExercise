@@ -14,3 +14,542 @@
 2024-03-26 20:10:38,893 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud/src/test/java
 2024-03-26 20:10:38,893 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud/src/test/resources
 2024-03-26 20:10:45,797 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 6,00 sec, update config takes 6,00 sec 
+2024-03-26 20:10:54,188 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 20:10:54,189 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-26 20:10:54,197 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-03-26 20:10:54,322 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2024-03-26 20:10:54,958 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-03-26 20:10:54,959 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-03-26 20:10:54,959 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud\src\test\resources
+2024-04-16 16:16:43,597 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-20 20:32:37,674 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-21 14:27:59,559 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: sia:taco-cloud-parent:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\pom.xml.
+2024-04-21 14:28:20,915 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:28:20,915 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:28:22,966 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-data/0.0.7-SNAPSHOT/maven-metadata.xml
+2024-04-21 14:28:24,130 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-data/0.0.7-SNAPSHOT/tacocloud-data-0.0.7-SNAPSHOT.pom
+2024-04-21 14:28:24,230 [Worker-35: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:24,275 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:24,533 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-domain/0.0.7-SNAPSHOT/maven-metadata.xml
+2024-04-21 14:28:24,820 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-domain/0.0.7-SNAPSHOT/tacocloud-domain-0.0.7-SNAPSHOT.pom
+2024-04-21 14:28:24,829 [Worker-35: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:24,840 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:25,148 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-security/0.0.7-SNAPSHOT/maven-metadata.xml
+2024-04-21 14:28:25,421 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-security/0.0.7-SNAPSHOT/tacocloud-security-0.0.7-SNAPSHOT.pom
+2024-04-21 14:28:25,423 [Worker-35: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:25,451 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:25,712 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-api/0.0.7-SNAPSHOT/maven-metadata.xml
+2024-04-21 14:28:25,983 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-api/0.0.7-SNAPSHOT/tacocloud-api-0.0.7-SNAPSHOT.pom
+2024-04-21 14:28:25,986 [Worker-35: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:25,999 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:26,272 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-ui/0.0.7-SNAPSHOT/maven-metadata.xml
+2024-04-21 14:28:26,618 [Worker-27: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-ui/0.0.7-SNAPSHOT/tacocloud-ui-0.0.7-SNAPSHOT.pom
+2024-04-21 14:28:26,622 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:26,636 [Worker-35: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:40,089 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-data/0.0.7-SNAPSHOT/tacocloud-data-0.0.7-SNAPSHOT.jar
+2024-04-21 14:28:40,348 [BasicRepositoryConnector-repo.spring.io-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-domain/0.0.7-SNAPSHOT/tacocloud-domain-0.0.7-SNAPSHOT.jar
+2024-04-21 14:28:41,139 [BasicRepositoryConnector-repo.spring.io-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-api/0.0.7-SNAPSHOT/tacocloud-api-0.0.7-SNAPSHOT.jar
+2024-04-21 14:28:41,146 [BasicRepositoryConnector-repo.spring.io-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-security/0.0.7-SNAPSHOT/tacocloud-security-0.0.7-SNAPSHOT.jar
+2024-04-21 14:28:41,171 [BasicRepositoryConnector-repo.spring.io-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-ui/0.0.7-SNAPSHOT/tacocloud-ui-0.0.7-SNAPSHOT.jar
+2024-04-21 14:28:50,539 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-data/0.0.7-SNAPSHOT/tacocloud-data-0.0.7-SNAPSHOT-sources.jar
+2024-04-21 14:28:50,547 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for sia:tacocloud-data:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-data:jar:sources:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:28:51,712 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-domain/0.0.7-SNAPSHOT/tacocloud-domain-0.0.7-SNAPSHOT-sources.jar
+2024-04-21 14:28:51,717 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for sia:tacocloud-domain:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-domain:jar:sources:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:28:52,802 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-security/0.0.7-SNAPSHOT/tacocloud-security-0.0.7-SNAPSHOT-sources.jar
+2024-04-21 14:28:52,807 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for sia:tacocloud-security:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-security:jar:sources:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:28:53,932 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-api/0.0.7-SNAPSHOT/tacocloud-api-0.0.7-SNAPSHOT-sources.jar
+2024-04-21 14:28:53,936 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for sia:tacocloud-api:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-api:jar:sources:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:28:55,001 [Worker-46: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-ui/0.0.7-SNAPSHOT/tacocloud-ui-0.0.7-SNAPSHOT-sources.jar
+2024-04-21 14:28:55,008 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for sia:tacocloud-ui:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-ui:jar:sources:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:28:56,195 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:28:56,196 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:28:56,252 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-21 14:28:56,331 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-04-21 14:28:56,348 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:28:56,348 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:28:56,348 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\src\test\resources
+2024-04-21 14:28:58,826 [Worker-44: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:28:58,860 [Worker-44: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:58,877 [Worker-44: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:58,899 [Worker-44: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:58,930 [Worker-44: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:28:58,941 [Worker-44: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:03,002 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-api:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\pom.xml.
+2024-04-21 14:29:03,074 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:03,086 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:03,094 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:08,914 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:29:09,200 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:11,019 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:11,382 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:13,907 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-data/0.0.7-SNAPSHOT/tacocloud-data-0.0.7-SNAPSHOT-javadoc.jar
+2024-04-21 14:29:14,008 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for sia:tacocloud-data:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-data:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:29:15,203 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-domain/0.0.7-SNAPSHOT/tacocloud-domain-0.0.7-SNAPSHOT-javadoc.jar
+2024-04-21 14:29:15,207 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for sia:tacocloud-domain:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-domain:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:29:16,265 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:29:16,268 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:29:16,268 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\main\resources
+2024-04-21 14:29:16,268 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\main\resources
+2024-04-21 14:29:16,272 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-security/0.0.7-SNAPSHOT/tacocloud-security-0.0.7-SNAPSHOT-javadoc.jar
+2024-04-21 14:29:16,279 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for sia:tacocloud-security:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-security:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:29:16,301 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:29:16,301 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:29:16,301 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\test\resources
+2024-04-21 14:29:17,448 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-ui/0.0.7-SNAPSHOT/tacocloud-ui-0.0.7-SNAPSHOT-javadoc.jar
+2024-04-21 14:29:17,459 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for sia:tacocloud-ui:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-ui:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:29:18,824 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-data:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\pom.xml.
+2024-04-21 14:29:18,841 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:26,053 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-api:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\pom.xml.
+2024-04-21 14:29:26,175 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:26,183 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:26,375 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:27,286 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:29:27,318 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:28,962 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:29,048 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:29,203 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:29,265 [Worker-42: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:34,781 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:29:35,143 [Worker-28: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:35,318 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:29:35,318 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:29:35,318 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\main\resources
+2024-04-21 14:29:35,318 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\main\resources
+2024-04-21 14:29:35,326 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:29:35,326 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:29:35,327 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\test\resources
+2024-04-21 14:29:37,483 [Worker-28: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:37,503 [Worker-28: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:29:38,834 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:39,068 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:39,702 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:29:39,803 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-domain:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-domain\pom.xml.
+2024-04-21 14:29:39,821 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:29:40,664 [Worker-28: Updating Maven Dependencies] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
+2024-04-21 14:37:18,072 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-21 14:43:05,580 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2024-04-21 14:43:05,629 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2024-04-21 14:43:05,685 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2024-04-21 14:43:05,708 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2024-04-21 14:43:05,743 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2024-04-21 14:43:05,759 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2024-04-21 14:43:05,965 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2024-04-21 14:43:05,986 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2024-04-21 14:47:48,121 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-21 14:48:17,740 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:17,741 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:17,762 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-21 14:48:17,812 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2024-04-21 14:48:18,660 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:18,660 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:18,661 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud\src\test\resources
+2024-04-21 14:48:23,030 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:25,147 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:25,147 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:25,148 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\main\resources
+2024-04-21 14:48:25,148 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\main\resources
+2024-04-21 14:48:25,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:25,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:25,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\src\test\resources
+2024-04-21 14:48:26,497 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:26,988 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:27,107 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:27,308 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:28,695 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:28,695 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:28,695 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\main\resources
+2024-04-21 14:48:28,696 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\main\resources
+2024-04-21 14:48:28,703 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:28,704 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:28,705 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\src\test\resources
+2024-04-21 14:48:31,353 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:32,080 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:33,112 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:33,675 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:33,774 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:48:34,024 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:34,096 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:48:34,964 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:34,964 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:34,966 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-21 14:48:35,066 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-04-21 14:48:35,085 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:35,085 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:35,085 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\src\test\resources
+2024-04-21 14:48:39,220 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-domain:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-domain\pom.xml.
+2024-04-21 14:48:41,129 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-data:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-data\pom.xml.
+2024-04-21 14:48:41,238 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:42,379 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-api:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\pom.xml.
+2024-04-21 14:48:42,408 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:42,417 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:42,477 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:42,569 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:42,617 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:43,660 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:48:43,694 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:48:44,217 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:44,299 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:44,308 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:48:44,584 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:48:44,660 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:44,669 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:48:48,792 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:48,793 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:48,793 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-domain\src\main\resources
+2024-04-21 14:48:48,793 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-domain\src\main\resources
+2024-04-21 14:48:48,800 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:48,864 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:48,866 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-domain\src\test\resources
+2024-04-21 14:48:51,341 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-restclient:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-restclient\pom.xml.
+2024-04-21 14:48:54,283 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:48:56,758 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:56,759 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:56,761 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-21 14:48:56,821 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2024-04-21 14:48:57,507 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:48:57,508 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:48:57,508 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-restclient\src\test\resources
+2024-04-21 14:48:59,362 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-security:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\pom.xml.
+2024-04-21 14:49:00,275 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:00,345 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:01,084 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-api:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-api\pom.xml.
+2024-04-21 14:49:01,111 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:01,164 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:01,179 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:49:02,011 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:49:02,034 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:49:02,364 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:02,421 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:02,427 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:49:02,427 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:49:02,584 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:02,628 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:02,633 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:49:02,634 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:49:04,975 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:04,975 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:04,976 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\src\main\resources
+2024-04-21 14:49:04,976 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\src\main\resources
+2024-04-21 14:49:04,982 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:04,983 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:04,983 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\src\test\resources
+2024-04-21 14:49:05,928 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-ui:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\pom.xml.
+2024-04-21 14:49:06,496 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:49:07,532 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:07,608 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:07,614 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:49:07,615 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-api: sia:tacocloud-api:0.0.7-SNAPSHOT with classifier  to /tacocloud-api/target/classes
+2024-04-21 14:49:07,643 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:49:11,012 [Worker-11: Building] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v6.9.1 is already installed.
+2024-04-21 14:49:11,022 [Worker-11: Building] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui
+2024-04-21 14:49:13,438 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - module.js:471
+2024-04-21 14:49:13,440 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2024-04-21 14:49:13,441 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2024-04-21 14:49:13,442 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2024-04-21 14:49:13,444 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'number-is-nan'
+2024-04-21 14:49:13,445 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (module.js:469:15)
+2024-04-21 14:49:13,446 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (module.js:417:25)
+2024-04-21 14:49:13,448 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module.require (module.js:497:17)
+2024-04-21 14:49:13,449 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at require (internal/module.js:20:19)
+2024-04-21 14:49:13,450 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Object.<anonymous> (C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\node\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\string-width\node_modules\code-point-at\index.js:2:19)
+2024-04-21 14:49:13,452 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module._compile (module.js:570:32)
+2024-04-21 14:49:13,453 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Object.Module._extensions..js (module.js:579:10)
+2024-04-21 14:49:13,454 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module.load (module.js:487:32)
+2024-04-21 14:49:13,455 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at tryModuleLoad (module.js:446:12)
+2024-04-21 14:49:13,456 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (module.js:438:3)
+2024-04-21 14:49:13,463 [Worker-11: Building] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm run-script build' in C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui
+2024-04-21 14:49:14,181 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - module.js:471
+2024-04-21 14:49:14,183 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2024-04-21 14:49:14,184 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2024-04-21 14:49:14,186 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2024-04-21 14:49:14,187 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'number-is-nan'
+2024-04-21 14:49:14,188 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (module.js:469:15)
+2024-04-21 14:49:14,189 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (module.js:417:25)
+2024-04-21 14:49:14,191 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module.require (module.js:497:17)
+2024-04-21 14:49:14,192 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at require (internal/module.js:20:19)
+2024-04-21 14:49:14,193 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Object.<anonymous> (C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\node\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\string-width\node_modules\code-point-at\index.js:2:19)
+2024-04-21 14:49:14,194 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module._compile (module.js:570:32)
+2024-04-21 14:49:14,195 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Object.Module._extensions..js (module.js:579:10)
+2024-04-21 14:49:14,197 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Module.load (module.js:487:32)
+2024-04-21 14:49:14,198 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at tryModuleLoad (module.js:446:12)
+2024-04-21 14:49:14,200 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (module.js:438:3)
+2024-04-21 14:49:14,429 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:14,429 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:14,430 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\dist
+2024-04-21 14:49:14,435 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:14,435 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:14,435 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\src\test\resources
+2024-04-21 14:49:17,348 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-web:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-web\pom.xml.
+2024-04-21 14:49:18,367 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:49:18,426 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:49:20,527 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:20,527 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:20,532 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-04-21 14:49:20,538 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2024-04-21 14:49:20,932 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:49:20,933 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:49:20,933 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-web\src\test\resources
+2024-04-21 14:50:10,195 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:50:11,023 [Worker-9: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:11,496 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:50:11,607 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:11,615 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:11,616 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:11,908 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-data: sia:tacocloud-data:0.0.7-SNAPSHOT with classifier  to /tacocloud-data/target/classes
+2024-04-21 14:50:12,037 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:12,045 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:12,045 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:19,177 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-security:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\pom.xml.
+2024-04-21 14:50:19,195 [Worker-12: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:19,562 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/sia/tacocloud-api/0.0.7-SNAPSHOT/tacocloud-api-0.0.7-SNAPSHOT-javadoc.jar
+2024-04-21 14:50:19,583 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for sia:tacocloud-api:0.0.7-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact sia:tacocloud-api:jar:javadoc:0.0.7-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-21 14:50:19,945 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:20,193 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:21,163 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-web:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-web\pom.xml.
+2024-04-21 14:50:21,524 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:21,866 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-domain: sia:tacocloud-domain:0.0.7-SNAPSHOT with classifier  to /tacocloud-domain/target/classes
+2024-04-21 14:50:23,575 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:50:23,653 [Worker-12: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:23,891 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:23,892 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:24,201 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:24,202 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:30,178 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-restclient:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-restclient\pom.xml.
+2024-04-21 14:50:30,195 [Worker-0: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:31,512 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-security:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\pom.xml.
+2024-04-21 14:50:32,144 [Worker-0: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:33,397 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-web:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-web\pom.xml.
+2024-04-21 14:50:34,797 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:50:34,897 [Worker-0: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:34,998 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:35,020 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:35,191 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:35,208 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:43,928 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-ui:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-ui\pom.xml.
+2024-04-21 14:50:45,037 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:45,046 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:45,314 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:45,862 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:45,923 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:46,159 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:46,181 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:46,717 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-security:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-security\pom.xml.
+2024-04-21 14:50:46,738 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:46,746 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:47,033 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:47,043 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:48,293 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud-web:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud-web\pom.xml.
+2024-04-21 14:50:49,635 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:50:49,739 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:49,841 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:49,860 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:50,005 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-security: sia:tacocloud-security:0.0.7-SNAPSHOT with classifier  to /tacocloud-security/target/classes
+2024-04-21 14:50:50,018 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:54,365 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:50:54,384 [Worker-10: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:54,392 [Worker-10: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:54,408 [Worker-10: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:54,419 [Worker-10: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:50:55,333 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:50:55,462 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/tacocloud-ui: sia:tacocloud-ui:0.0.7-SNAPSHOT with classifier  to /tacocloud-ui/target/classes
+2024-04-21 14:51:00,658 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:tacocloud:0.0.7-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch07\tacocloud\pom.xml.
+2024-04-21 14:51:00,674 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-data:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:51:00,684 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-domain:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:51:00,816 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-security:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:51:00,825 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-api:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:51:00,835 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for sia:tacocloud-ui:jar:0.0.7-SNAPSHOT is missing, no dependency information available
+2024-04-21 14:52:17,425 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sia:taco-cloud:0.0.6-SNAPSHOT @ C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud\pom.xml.
+2024-04-21 14:52:21,957 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud/src/main/java
+2024-04-21 14:52:21,958 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud/src/main/resources
+2024-04-21 14:52:21,958 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud/src/main/resources
+2024-04-21 14:52:21,960 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-cloud/src/test/java
+2024-04-21 14:52:21,961 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-cloud/src/test/resources
+2024-04-21 14:52:24,279 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-04-21 14:52:27,486 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:52:27,487 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:52:27,487 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-21 14:52:27,517 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 10 resources
+2024-04-21 14:52:27,777 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-21 14:52:27,777 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-04-21 14:52:27,777 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Spring\spring-in-action-6-samples-main\spring-in-action-6-samples-main\ch06\taco-cloud\src\test\resources
+2024-04-22 11:48:37,740 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
